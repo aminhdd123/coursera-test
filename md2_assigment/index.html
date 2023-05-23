@@ -3,9 +3,100 @@
 <head>
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width, initial-scale=1">
-  <link rel="stylesheet" href="md_2.css">
-  <title>our menu</title>
    
+  <title>our menu</title>
+  <style>
+    *{
+  box-sizing: border-box;
+  margin:0;
+  padding:0;
+}
+
+body{
+  font-family: Papyrus;  
+}
+ 
+ 
+h1{
+  text-align: center;
+  margin-bottom: 40px;
+}
+
+section{
+ position: relative;
+ top:50px;
+ margin: 10px; 
+}
+
+div > div{
+  position: relative;
+  top: 10px;
+  background-color:grey;
+  margin: 15px;
+  padding: 25px;
+  border: 3px solid black;
+}
+
+  p{
+  margin-top: 24px;
+  text-align: justify;
+  font-size:100%;
+}
+
+.name{
+  position: absolute;
+  top:0;
+  right: 0px;
+  background: green; 
+  padding: 6px 90px;
+  border-left: 2px solid black;
+  border-bottom: 2px solid black;
+}
+
+#chiken{
+  background-color: lightblue;
+} 
+
+#beef{
+  background-color: lightyellow;
+}
+
+#sushi{
+  background-color: antiquewhite;
+}
+
+  @media (min-width: 992px){
+   
+  .col-lg-4 {
+    width: 33.33%;
+    float: left;
+  }
+   
+
+}
+
+
+ 
+@media (min-width: 768px) and (max-width: 991px){
+  .col-lg-4 {
+    width: 50%;
+    float: left;
+  }
+  .col-lg-md{
+   width: 100%;
+   float: left;
+ }
+}
+
+
+ 
+@media (max-width: 767px){
+  .col-lg-4{
+    width: 100%;
+    float: left;
+  }
+}
+  </style>
  
 </head>
 <body>
