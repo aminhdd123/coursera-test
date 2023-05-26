@@ -1,144 +1,184 @@
   <!DOCTYPE html>
 <html>
 <head>
-  <meta charset="utf-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1">
-   
-  <title>our menu</title>
-  <style>
-    *{
-  box-sizing: border-box;
-  margin:0;
-  padding:0;
-}
-
-body{
-  font-family: Papyrus;  
-}
  
- 
-h1{
-  text-align: center;
-  margin-bottom: 40px;
-}
-
-section{
- position: relative;
- top:50px;
- margin: 10px; 
-}
-
-div > div{
-  position: relative;
-  top: 10px;
-  background-color:grey;
-  margin: 15px;
-  padding: 25px;
-  border: 3px solid black;
-}
-
-  p{
-  margin-top: 24px;
-  text-align: justify;
-  font-size:100%;
-}
-
-.name{
-  position: absolute;
-  top:0;
-  right: 0px;
-  background: green; 
-  padding: 6px 90px;
-  border-left: 2px solid black;
-  border-bottom: 2px solid black;
-}
-
-#chiken{
-  background-color: lightblue;
-} 
-
-#beef{
-  background-color: lightyellow;
-}
-
-#sushi{
-  background-color: antiquewhite;
-}
-
-  @media (min-width: 992px){
-   
-  .col-lg-4 {
-    width: 33.33%;
-    float: left;
-  }
-   
-
-}
-
-
- 
-@media (min-width: 768px) and (max-width: 991px){
-  .col-lg-4 {
-    width: 50%;
-    float: left;
-  }
-  .col-lg-md{
-   width: 100%;
-   float: left;
- }
-}
-
-
- 
-@media (max-width: 767px){
-  .col-lg-4{
-    width: 100%;
-    float: left;
-  }
-}
-  </style>
- 
-</head>
-<body>
-  <section>
     
 
-    <h1 class="menu-title">Our menu</h1>
-      <div class="col-lg-4  ">
-        <div  >
-           
-            <h3 class="name" id="chiken">Chicken</h3>
-           
-          <p>
-            Juicy, crispy fried chicken is a treat shared across many cultures. We just accept it as one of those inherently enjoyable foods. But on a deeper level, what is actually happening when we eat fried chicken? In partnership with Red Rooster, we speak to a professor of food science to help us translate the taste.
+<title>Module 3</title>
 
-          </p>
-        </div>
-      </div>
-      <div class="col-lg-4   ">
-        <div  >
-         
-          <h3 class="name" id="beef">Beef</h3>
-        
-        <p>
-          Beef is the culinary name for meat from bovines, especially cattle. Beef can be harvested from cows, bulls, heifers or steers. Acceptability as a food source varies in different parts of the world.Beef is the culinary name for meat from bovines, especially cattle. Beef can be harvested from cows, bulls, heifers or steers.  
-        </p>
-      </div>
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Lora:ital,wght@0,500;1,400&family=Montserrat:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap" rel="stylesheet">
+
+</head>
+
+<meta name="viewport" content="width=device-width, initial-scale=1">
+ <style type="text/css">
+   .container-fluid{
+  margin: 0;
+  padding: 0;
+}
+
+.navbar{
+  border-radius: 0px;
+  background-color: rgba(0,0,0,0.8);
+}
+
+.navbar-brand{
+  font-size: 35px;
+  color: white;
+  padding-left: 25px;
+}
+
+.navbar-brand:hover{
+  color: bleu;
+}
+
+.nav{
+  margin: 0;
+  padding: 0;
+}
+
+.navbar-nav{
+  font-size: 25px;
+  text-align: center;
+  margin: 0;
+  padding: 0;
+}
+
+.navbar-toggle{
+  border: 2px solid white;
+  margin-right: 25px;
+}
+
+.icon-bar{
+  background-color: white;
+}
+
+
+.main-title{
+  margin-bottom: 15px;
+  text-align: center;
+  color: blue;
+  font-size: 50px;
+  font-family: 'Lora', serif;
+font-family: 'Montserrat', sans-serif;  
+  font-weight: bold;
+}
+
+li{
+  box-sizing: border-box;
+  width: 100%;
+}
+
+.menu-item{
+  padding: 0;
+  margin: 0;
+  width: 100%;
+  background-color: skyblue;
+  border-bottom: 1px solid black;
+  color: black;
+  display: block;
+}
+
+.menu-item:hover{
+  background-color: skyblue;
+  color: rgba(0,0,0,0.4);
+}
+
+
+
+.row{
+  margin: 20px;
+}
+
+.content-box{
+  margin: 20px;
+  width: auto;
+  height: auto;
+  color: black;
+  background-color: rgba(0,0,0,0.2);
+   font-family: 'Lora', serif;
+font-family: 'Montserrat', sans-serif; 
+  padding: 20px;
+}
+
+.item-name{
+  text-align: center;
+  font-size: 20px;
+  font-weight: bold;
+}
+
+#top{
+
+}
+ 
+</style>
+ </style>
+
+
+
+<body>
+
+
+<nav class="navbar" id="top">
+  <div class="container-fluid">
+
+    <div class="navbar-header">
+      <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#myNavbar">
+        <span class="icon-bar"></span>
+        <span class="icon-bar"></span>
+        <span class="icon-bar"></span> 
+      </button>
+      <a class="navbar-brand" href="#">Food, LLC</a>
     </div>
 
-    <div class="col-lg-4 col-lg-md">
-      <div  >
-       
-        <h3 class="name" id="sushi">Sushi</h3>
-     
-      <p>
-        Unlike other heavy foods, sushi is made up of fresh and light ingredients which makes it easier to digest. Additionally, sushi is a great way to fuel your body with important nutrients like protein, omega-3 fatty acids, and vitamins B12 and D.Unlike other heavy foods, sushi is made up of fresh and light ingredients which makes it  
-      </p>
+    <div class="collapse" id="myNavbar">
+      <ul class="nav navbar-nav visible-xs">
+        <li><a class="menu-item" href="#">Chicken</a></li>
+        <li><a class="menu-item" href="#">Beef</a></li> 
+        <li><a class="menu-item" href="#">Sushi</a></li> 
+      </ul>
+    </div>
+
+  </div>
+</nav>
+
+<h1 class="main-title">Our Menu</h1>
+
+
+
+<div class="row">
+
+  <div class="col-lg-4 col-md-6 col-sm-12">
+    <div class="content-box">
+      <p class="item-name">Chicken</p>
+      <p> Juicy, crispy fried chicken is a treat shared across many cultures. We just accept it as one of those inherently enjoyable foods. But on a deeper level, what is actually happening when we eat fried chicken? In partnership with Red Rooster, we speak to a professor of food science to help us translate the taste.
+<a href="#top">(Back to Top)</a></p>
     </div>
   </div>
 
- 
+  <div class="col-lg-4 col-md-6 col-sm-12">
+    <div class="content-box">
+      <p class="item-name">Beef</p>
+      <p>Beef is the culinary name for meat from bovines, especially cattle. Beef can be harvested from cows, bulls, heifers or steers. Acceptability as a food source varies in different parts of the world.Beef is the culinary name for meat from bovines, especially cattle. Beef can be harvested from cows, bulls, heifers or steers.  <a href="#top">(Back to Top)</a></p>
+    </div>
+  </div>
+
+
+  <div class="col-lg-4 col-md-12 col-sm-12">
+    <div class="content-box">
+      <p class="item-name">Sushi</p>
+      <p>Unlike other heavy foods, sushi is made up of fresh and light ingredients which makes it easier to digest. Additionally, sushi is a great way to fuel your body with important nutrients like protein, omega-3 fatty acids, and vitamins B12 and D.Unlike other heavy foods, sushi is made up of fresh and light ingredients which makes it  <a href="#top">(Back to Top)</a></p>
+    </div>
+  </div>
+
 </div>
-</section>
+
+
 </body>
 </html>
